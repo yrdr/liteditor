@@ -678,7 +678,7 @@
         };
         editor.editor.append(editor.tools, editor.content);
         //修复编辑器高
-        editor.content.css('minHeight', 200 + 'px');
+        editor.content.css('minHeight', 300 + 'px');
         options.textarea.before(editor.editor);
         options.textarea.hide();
         return editor;
