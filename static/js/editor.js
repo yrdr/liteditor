@@ -783,7 +783,7 @@
 
         //给当前输入域聚焦
         focus : function() {
-            this.editor[0].focus();
+            this.content[0].focus();
             return this;
         },
 
