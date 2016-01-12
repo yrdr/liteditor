@@ -33,7 +33,7 @@ table{border-collapse:collapse;table-layout:fixed}
 .dialog .title i:hover{color:#488fce}
 .dialog .content{padding:15px}
 .dialog .confirm{padding:0 15px;height:42px;background:#fafafa}
-.dialog .confirm input{border:0;border-radius:4px;background:#ff9000;color:#fff;height:26px;padding:0 6px;float:right;margin:8px 0 0 10px;vertical-align:middle;outline:none;cursor:pointer}
+.dialog .confirm input{border:0;font-size:13px;border-radius:4px;background:#ff9000;color:#fff;height:26px;padding:0 6px;float:right;margin:8px 0 0 10px;vertical-align:middle;outline:none;cursor:pointer}
 
 /**************************************tip****************************************/
 .tip{position:fixed;height:36px;padding:0 15px;line-height:36px;background:#ff9000;color:#fff;font-size:14px;border-radius: 18px;z-index:10000}
