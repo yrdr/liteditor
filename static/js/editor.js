@@ -1154,7 +1154,7 @@
     };
 
     global[variable] = function(options) {
-        return new Editor(options).focus();
+        return new Editor(options).focus().saveRange();
     }
 
 }(window, 'Editor'));
