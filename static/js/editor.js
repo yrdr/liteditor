@@ -804,7 +804,13 @@
         recoveryRange : function() {
             //如果存在range，则恢复
             this.focus();
-            if (this.data.range) {
+            if (
+            	this.data.range &&
+            	(
+            		this.data.range.commonAncestorContainer == this.content[0] ||
+            		this.isContains(this.content[0], this.data.range.commonAncestorContainer)
+            	)
+            ) {
                 this.data.selection = this.getSelection();
                 this.data.selection.removeAllRanges();
                 this.data.selection.addRange(this.data.range);
